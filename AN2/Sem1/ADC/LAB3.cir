@@ -1,0 +1,58 @@
+[aimspice]
+[description]
+655
+!Rectifiers - full
+!D1 1 2 Diodes 
+!D3 0 3 Diodes
+!D2 0 1 Diodes
+!D4 3 2 Diodes
+!.MODEL Diodes D tt=1e-9
+!R1 0 2 100
+!C1 2 0 3m
+!Vin 1 3 Sin(0 10 1k 0 0)
+
+!Rectifiers - zener
+!D1 1 2 Diodes 
+!D3 0 3 Diodes
+!D2 0 1 Diodes
+!D4 3 2 Diodes
+!.MODEL Diodes D tt=1e-9
+!R1 0 2 100
+!C1 2 0 1m
+!.MODEL ZenerD D BV = 6.8
+!DZ 0 2 ZenerD
+!Vin 1 3 Sin(0 10 1k 0 0)
+
+!Reaction regulator with no error amp
+D1 1 2 Diodes 
+D3 0 3 Diodes
+D2 0 1 Diodes
+D4 3 2 Diodes
+.MODEL Diodes D tt=1e-9
+R1 0 OUT 100
+C1 2 0 1m
+.MODEL ZenerD D BV = 5.6
+DZ 0 Z ZenerD
+R2 Z 2 220
+.Model Trans NPN TR=1e-9 TF=1e-9
+Q1 2 Z OUT Trans
+Vin 1 3 Sin(0 10 1k 0 0)
+
+[tran]
+1e-9
+6e-3
+0
+0.0001
+0
+[ana]
+4 1
+0
+1 1
+1 1 -2 10
+5
+v(1)
+v(2)
+v(3)
+v(out)
+v(z)
+[end]

@@ -1,0 +1,56 @@
+[aimspice]
+[description]
+533
+TTL Logic circuits
+.Model Trans NPN TR=5e-9 TF=8e-9
+Q1A 2 1 A Trans
+Q1B 2 1 B Trans
+R1 VCC 1 4k
+.MODEL Diodes D tt=1e-9
+D1 AB0 A Diodes
+D2 AB0 B Diodes
+
+R2 VCC 3 1,6k
+Q2 3 2 4 Trans
+R3 4 0 1k
+
+R4 VCC 5 130
+Q3 5 3 6 Trans
+D3 6 OUT Diodes
+Q4 OUT 4 0 Trans
+
+VCC IN 0 DC 5
+VA A AB0 DC 5
+VB B AB0 DC 5
+
+
+
+!R1 IN 1 1k
+!R2 2 OUT 1k
+!.Model Trans NPN TR=5e-9 TF=8e-9
+!Q1 OUT 1 0 Trans
+!VCC 2 0 DC 5
+!VIN IN 0 DC 0 PULSE ( 0 5 0 1e-9 1e-9 1e-7 2e-7)
+
+!C1 IN 1 45p
+!Cout OUT 0 1p
+!RB 1 R 7k
+!VEB EB 0 -1
+
+
+
+[dc]
+1
+VA
+0
+5
+0.1
+[tran]
+1e-9
+6e-7
+X
+X
+0
+[ana]
+1 0
+[end]

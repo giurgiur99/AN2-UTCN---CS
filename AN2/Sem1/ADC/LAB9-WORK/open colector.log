@@ -1,0 +1,104 @@
+
+                 *********************************************
+                 *                                           *
+                 *             A I M - S p i c e             *
+                 *                                           *
+                 *         Professional Version 2020.100           *
+                 *                                           *
+                 *********************************************
+
+	Date: Thu Nov 26 15:37:33 2020
+	Circuit File: C:\Users\TheRa\Desktop\open colector.cir
+	Analysis: Transient
+
+**************************  Circuit Description  **************************
+
+     1:  Untitled circuit
+     2:  .subckt nand a b vcc o
+     3:  q11 2 1 a tr
+     4:  q12 2 1 b tr
+     5:  q2 3 2 4 tr
+     6:  q3 5 3 6 tr
+     7:  q4 o 4 0 tr
+     8:  d3 6 o di
+     9:  d1 0 b di
+    10:  d2 0 a di
+    11:  r1 vcc 1 4k
+    12:  r2 vcc 3 1.6k
+    13:  r3 4 0 1k
+    14:  r4 vcc 5 130
+    15:  .ends
+    16:  .subckt op a b vcc out
+    17:  q11 2 1 a tr
+    18:  q12 2 1 b tr
+    19:  q2 3 2 4 tr
+    20:  q4 out 4 0 tr
+    21:  d1 0 b di
+    22:  d2 0 a di
+    23:  r1 vcc 1 4k
+    24:  r2 vcc 3 1.6k
+    25:  r3 4 0 1k
+    26:  .ends
+    27:  .model tr npn tr=5e-9 tf=8e-9
+    28:  .model di d tt=5e-9
+    29:  x1 i1 i1 vcc out op
+    30:  x2 i2 i2 vcc out op
+    31:  x3 out out vcc out1 nand
+    32:  x4 out out vcc out2 nand
+    33:  vi1 i1 0 dc 0 pulse(0.1 4.8 0 1e-8 1e-8 0.25e-6 0.5e-6)
+    34:  vi2 i2 0 dc 0 pulse (0.2 4.9 0 1e-8 1e-8 0.5e-6 1e-6)
+    35:  vcc vcc 0 5
+    36:  rc vcc out 2k
+    37:  !rc vcc out 0.5k
+    38:  
+    39:  Cs1 out 0 15p
+    40:  Cs2 out1 0 15p
+    41:  Cs3 out2 0 15p
+    42:  
+    43:  
+    44:  
+    45:  
+    46:  
+    47:  
+    48:  .tran 1e-10 2e-6
+
+***************************  Model Parameters  ****************************
+
+
+***************  Device Parameters (Only for .op analysis)  ***************
+
+
+
+**************************  Analysis Parameters  **************************
+
+	Stepsize ............ : 1e-10
+	Final time .......... : 2e-6
+	Use Initial Conditions: Off
+
+
+
+**************  Options (Only those different from default)  **************
+
+
+
+*************************  Simulation Statistics  *************************
+
+	Total number of iterations.....................: 3386
+	Number of iterations for transient analysis....: 3355
+	Total number of timepoints.....................: 766
+	Number of timepoints accepted..................: 545
+	Number of timepoints rejected..................: 221
+	Total analysis time (sec)......................: 0.231
+	Transient analysis time (sec)..................: 0.228
+	Time spent in device loading (sec).............: 0.014
+	Time spent in L-U decomposition (sec)..........: 0.008
+	Time spent in matrix reordering (sec)..........: 0
+	Time spent in matrix solving (sec).............: 0.002
+	Time spent in transient L-U decomposition (sec): 0.008
+	Time spent in transient matrix solving (sec)...: 0.002
+
+***************************  Kernel Messages  *****************************
+
+Circuit: Untitled circuit
+
+

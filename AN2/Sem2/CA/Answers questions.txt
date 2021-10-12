@@ -1,0 +1,21 @@
+1. How many memories are used in the single-cycle MIPS processor : 2
+2. What is a pipeline flush : force a signal or a register to 0
+3. What is PC absolute addressing? Is it used in MIPS : The effective address for an absolute instruction address is the address parameter itself with no modifications and we have it in a mips
+4. What is the “function” field (from instruction format) used for : The function field of the instruction determines the ALU operation ( R Type )
+5. Write RTL abstract for the following instruction: jr : jr $rs R PC<-RF[rs]
+6. Write RTL abstract for the following instruction: sllv : (shift left logical variable ) : d <- t<<s
+7. How many registers are in the MIPS Register File?
+8. Who is responsible for filling the branch delay slot?
+9. What is a control hazard?
+10. Give an example of a RAW data hazard.
+11. Give an example of µInstruction encoding.
+12. How is the SLT operation implemented in an ALU?
+13. What is the binary number representation used in today processors? 1’s or 2’s complement? Why?
+14. What is register renaming?
+15. What is a 2-bit predictor (branch prediction)?
+16. What is a cache memory?
+17. What is AMAT?
+18. What is a BHT (bimodal branch prediction)? Where does its address come from?
+19. What is a TLB (virtual memory)?
+20. What is temporal locality (caches)?
+

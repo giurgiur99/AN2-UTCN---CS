@@ -1,0 +1,78 @@
+[aimspice]
+[description]
+713
+Untitled circuit
+.subckt nand a b vcc o
+q11 2 1 a tr
+q12 2 1 b tr
+q2 3 2 4 tr
+q3 5 3 6 tr
+q4 o 4 0 tr
+d3 6 o di
+d1 0 b di
+d2 0 a di
+r1 vcc 1 4k
+r2 vcc 3 1.6k
+r3 4 0 1k
+r4 vcc 5 130
+.ends
+.subckt op a b vcc out
+q11 2 1 a tr
+q12 2 1 b tr
+q2 3 2 4 tr
+q4 out 4 0 tr
+d1 0 b di
+d2 0 a di
+r1 vcc 1 4k
+r2 vcc 3 1.6k
+r3 4 0 1k
+.ends
+.model tr npn tr=5e-9 tf=8e-9
+.model di d tt=5e-9
+x1 i1 i1 vcc out op
+x2 i2 i2 vcc out op
+x3 out out vcc out1 nand
+x4 out out vcc out2 nand
+vi1 i1 0 dc 0 pulse(0.1 4.8 0 1e-8 1e-8 0.25e-6 0.5e-6)
+vi2 i2 0 dc 0 pulse (0.2 4.9 0 1e-8 1e-8 0.5e-6 1e-6)
+vcc vcc 0 5
+rc vcc out 2k
+!rc vcc out 0.5k
+
+Cs1 out 0 15p
+Cs2 out1 0 15p
+Cs3 out2 0 15p
+
+
+
+
+
+
+[dc]
+1
+vi1
+0
+5
+0.01
+[tran]
+1e-10
+2e-6
+X
+X
+0
+[ana]
+4 2
+0
+1 1
+1 1 -0.06 0.02
+1
+i(vi1)
+0
+1 1
+1 1 0 5
+4
+v(i1)
+v(i2)
+v(out1)
+v(out2)
+[end]

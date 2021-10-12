@@ -1,0 +1,51 @@
+[aimspice]
+[description]
+626
+CMOS_TSL
+.subckt NOT_CMOS i vdd vss o
+mn o i vss vss nmos1 w=1u l=1u
+.model nmos1 nmos vto=1.5
+mp o i vdd vdd pmos1 w=1u l=1u
+.model pmos1 pmos vto=-1.5
+.ends
+.subckt NOT_CMOS_TSL in e vdd vss out
+mn 2 e vss vss nmos1 w=1u l=1u
+.model nmos1 nmos vto=1.5
+mp 1 note vdd vdd pmos1 w=1u l=1u
+.model pmos1 pmos vto=-1.5
+X1_NOT_CMOS in 1 2 out NOT_CMOS
+X2_NOT_CMOS e vdd vss note NOT_CMOS
+.ends
+X3_NOT_CMOS_TSL in e vdd vss out NOT_CMOS_TSL
+R1 vdd out 1e6
+R2 out vss 1e6
+Cs1 out 0 15p
+vdd vdd 0 5
+vss vss 0 0
+vin in 0 dc 0 pulse(0.1 4.8 0 1e-9 1e-9 1e-3 2e-3)
+ve e 0 dc 0 pulse(0.2 4.9 0 1e-9 1e-9 2e-3 4e-3)
+
+[options]
+0
+[dc]
+1
+vin
+0
+5
+0.01
+[tran]
+1e-10
+10e-3
+X
+X
+0
+[ana]
+4 1
+0
+1 1
+1 1 0 5
+3
+v(e)
+v(out)
+v(in)
+[end]

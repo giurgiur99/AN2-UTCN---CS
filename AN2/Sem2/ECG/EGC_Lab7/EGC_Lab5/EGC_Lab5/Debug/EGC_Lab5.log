@@ -1,0 +1,20 @@
+﻿  EGC_Lab5.cpp
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(165,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(176,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(194,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(194,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(194,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(194,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(195,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(195,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(195,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(195,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(196,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(196,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(196,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(196,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(197,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(197,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(197,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\EGC_Lab5\EGC_Lab5.cpp(197,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  EGC_Lab5.vcxproj -> C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Lab7\EGC_Lab5\Debug\EGC_Lab5.exe

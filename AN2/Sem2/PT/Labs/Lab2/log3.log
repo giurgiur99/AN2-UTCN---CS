@@ -1,0 +1,790 @@
+Apr 08, 2021 5:19:24 PM com.company.Shop$1 run
+INFO: Queue simulation
+Apr 08, 2021 5:19:24 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(0)
+Apr 08, 2021 5:19:25 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(1)
+Apr 08, 2021 5:19:26 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(2)
+Apr 08, 2021 5:19:27 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(3)
+Apr 08, 2021 5:19:28 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(4)
+Apr 08, 2021 5:19:29 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(5)
+Apr 08, 2021 5:19:29 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(5)
+Apr 08, 2021 5:19:30 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(6)
+Apr 08, 2021 5:19:31 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(7)
+Apr 08, 2021 5:19:32 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(8)
+Apr 08, 2021 5:19:32 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(8)
+Apr 08, 2021 5:19:32 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(8)
+Apr 08, 2021 5:19:32 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(8)
+Apr 08, 2021 5:19:33 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(9)
+Apr 08, 2021 5:19:33 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(9)
+Apr 08, 2021 5:19:34 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(10)
+Apr 08, 2021 5:19:35 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(11)
+Apr 08, 2021 5:19:35 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(11)
+Apr 08, 2021 5:19:36 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(12)
+Apr 08, 2021 5:19:37 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(13)
+Apr 08, 2021 5:19:37 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(13)
+Apr 08, 2021 5:19:38 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(14)
+Apr 08, 2021 5:19:38 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(14)
+Apr 08, 2021 5:19:38 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(14)
+Apr 08, 2021 5:19:38 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(14)
+Apr 08, 2021 5:19:39 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(15)
+Apr 08, 2021 5:19:40 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(16)
+Apr 08, 2021 5:19:40 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(16)
+Apr 08, 2021 5:19:40 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(16)
+Apr 08, 2021 5:19:41 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(17)
+Apr 08, 2021 5:19:41 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(17)
+Apr 08, 2021 5:19:42 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(18)
+Apr 08, 2021 5:19:43 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(19)
+Apr 08, 2021 5:19:44 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(20)
+Apr 08, 2021 5:19:44 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(20)
+Apr 08, 2021 5:19:44 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(20)
+Apr 08, 2021 5:19:44 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(20)
+Apr 08, 2021 5:19:45 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(21)
+Apr 08, 2021 5:19:46 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(22)
+Apr 08, 2021 5:19:46 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(22)
+Apr 08, 2021 5:19:47 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(23)
+Apr 08, 2021 5:19:48 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(24)
+Apr 08, 2021 5:19:48 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(24)
+Apr 08, 2021 5:19:49 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(25)
+Apr 08, 2021 5:19:49 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(25)
+Apr 08, 2021 5:19:49 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(25)
+Apr 08, 2021 5:19:50 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(26)
+Apr 08, 2021 5:19:50 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(26)
+Apr 08, 2021 5:19:51 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(27)
+Apr 08, 2021 5:19:51 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(27)
+Apr 08, 2021 5:19:52 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(28)
+Apr 08, 2021 5:19:52 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(28)
+Apr 08, 2021 5:19:53 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(29)
+Apr 08, 2021 5:19:54 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(30)
+Apr 08, 2021 5:19:54 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(30)
+Apr 08, 2021 5:19:55 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(31)
+Apr 08, 2021 5:19:55 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(31)
+Apr 08, 2021 5:19:55 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(31)
+Apr 08, 2021 5:19:56 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(32)
+Apr 08, 2021 5:19:57 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(33)
+Apr 08, 2021 5:19:57 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(33)
+Apr 08, 2021 5:19:57 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(33)
+Apr 08, 2021 5:19:58 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(34)
+Apr 08, 2021 5:19:58 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(34)
+Apr 08, 2021 5:19:58 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(34)
+Apr 08, 2021 5:19:59 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(35)
+Apr 08, 2021 5:20:00 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(36)
+Apr 08, 2021 5:20:01 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(37)
+Apr 08, 2021 5:20:02 PM com.company.Shop addClient
+INFO: A new client joined queue(9) at time(38)
+Apr 08, 2021 5:20:02 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(38)
+Apr 08, 2021 5:20:03 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(39)
+Apr 08, 2021 5:20:03 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(39)
+Apr 08, 2021 5:20:03 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(39)
+Apr 08, 2021 5:20:03 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(39)
+Apr 08, 2021 5:20:03 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(39)
+Apr 08, 2021 5:20:04 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(40)
+Apr 08, 2021 5:20:04 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(40)
+Apr 08, 2021 5:20:05 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(41)
+Apr 08, 2021 5:20:05 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(41)
+Apr 08, 2021 5:20:06 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(42)
+Apr 08, 2021 5:20:06 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(42)
+Apr 08, 2021 5:20:07 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(43)
+Apr 08, 2021 5:20:07 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(43)
+Apr 08, 2021 5:20:08 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(44)
+Apr 08, 2021 5:20:08 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(44)
+Apr 08, 2021 5:20:09 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(45)
+Apr 08, 2021 5:20:10 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(46)
+Apr 08, 2021 5:20:10 PM com.company.Queue nextTime
+INFO: A client left queue(9) at time(46)
+Apr 08, 2021 5:20:11 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(47)
+Apr 08, 2021 5:20:11 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(47)
+Apr 08, 2021 5:20:12 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(48)
+Apr 08, 2021 5:20:13 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(49)
+Apr 08, 2021 5:20:13 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(49)
+Apr 08, 2021 5:20:13 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(49)
+Apr 08, 2021 5:20:13 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(49)
+Apr 08, 2021 5:20:14 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(50)
+Apr 08, 2021 5:20:14 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(50)
+Apr 08, 2021 5:20:14 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(50)
+Apr 08, 2021 5:20:16 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(51)
+Apr 08, 2021 5:20:17 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(52)
+Apr 08, 2021 5:20:17 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(52)
+Apr 08, 2021 5:20:18 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(53)
+Apr 08, 2021 5:20:18 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(53)
+Apr 08, 2021 5:20:19 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(54)
+Apr 08, 2021 5:20:20 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(55)
+Apr 08, 2021 5:20:21 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(56)
+Apr 08, 2021 5:20:21 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(56)
+Apr 08, 2021 5:20:21 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(56)
+Apr 08, 2021 5:20:22 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(57)
+Apr 08, 2021 5:20:22 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(57)
+Apr 08, 2021 5:20:22 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(57)
+Apr 08, 2021 5:20:23 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(58)
+Apr 08, 2021 5:20:23 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(58)
+Apr 08, 2021 5:20:24 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(59)
+Apr 08, 2021 5:20:25 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(60)
+Apr 08, 2021 5:20:25 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(60)
+Apr 08, 2021 5:20:26 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(61)
+Apr 08, 2021 5:20:26 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(61)
+Apr 08, 2021 5:20:27 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(62)
+Apr 08, 2021 5:20:27 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(62)
+Apr 08, 2021 5:20:28 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(63)
+Apr 08, 2021 5:20:28 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(63)
+Apr 08, 2021 5:20:29 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(64)
+Apr 08, 2021 5:20:29 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(64)
+Apr 08, 2021 5:20:29 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(64)
+Apr 08, 2021 5:20:30 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(65)
+Apr 08, 2021 5:20:30 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(65)
+Apr 08, 2021 5:20:30 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(65)
+Apr 08, 2021 5:20:31 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(66)
+Apr 08, 2021 5:20:32 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(67)
+Apr 08, 2021 5:20:33 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(68)
+Apr 08, 2021 5:20:33 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(68)
+Apr 08, 2021 5:20:34 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(69)
+Apr 08, 2021 5:20:34 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(69)
+Apr 08, 2021 5:20:34 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(69)
+Apr 08, 2021 5:20:35 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(70)
+Apr 08, 2021 5:20:36 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(71)
+Apr 08, 2021 5:20:36 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(71)
+Apr 08, 2021 5:20:36 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(71)
+Apr 08, 2021 5:20:37 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(72)
+Apr 08, 2021 5:20:38 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(73)
+Apr 08, 2021 5:20:38 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(73)
+Apr 08, 2021 5:20:39 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(74)
+Apr 08, 2021 5:20:39 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(74)
+Apr 08, 2021 5:20:39 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(74)
+Apr 08, 2021 5:20:40 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(75)
+Apr 08, 2021 5:20:40 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(75)
+Apr 08, 2021 5:20:41 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(76)
+Apr 08, 2021 5:20:41 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(76)
+Apr 08, 2021 5:20:41 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(76)
+Apr 08, 2021 5:20:42 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(77)
+Apr 08, 2021 5:20:43 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(78)
+Apr 08, 2021 5:20:43 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(78)
+Apr 08, 2021 5:20:44 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(79)
+Apr 08, 2021 5:20:45 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(80)
+Apr 08, 2021 5:20:45 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(80)
+Apr 08, 2021 5:20:46 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(81)
+Apr 08, 2021 5:20:46 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(81)
+Apr 08, 2021 5:20:47 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(82)
+Apr 08, 2021 5:20:48 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(83)
+Apr 08, 2021 5:20:48 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(83)
+Apr 08, 2021 5:20:48 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(83)
+Apr 08, 2021 5:20:48 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(83)
+Apr 08, 2021 5:20:49 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(84)
+Apr 08, 2021 5:20:49 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(84)
+Apr 08, 2021 5:20:49 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(84)
+Apr 08, 2021 5:20:50 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(85)
+Apr 08, 2021 5:20:51 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(86)
+Apr 08, 2021 5:20:52 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(87)
+Apr 08, 2021 5:20:52 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(87)
+Apr 08, 2021 5:20:53 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(88)
+Apr 08, 2021 5:20:53 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(88)
+Apr 08, 2021 5:20:54 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(89)
+Apr 08, 2021 5:20:54 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(89)
+Apr 08, 2021 5:20:55 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(90)
+Apr 08, 2021 5:20:55 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(90)
+Apr 08, 2021 5:20:56 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(91)
+Apr 08, 2021 5:20:56 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(91)
+Apr 08, 2021 5:20:57 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(92)
+Apr 08, 2021 5:20:57 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(92)
+Apr 08, 2021 5:20:58 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(93)
+Apr 08, 2021 5:20:58 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(93)
+Apr 08, 2021 5:20:58 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(93)
+Apr 08, 2021 5:20:59 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(94)
+Apr 08, 2021 5:20:59 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(94)
+Apr 08, 2021 5:21:00 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(95)
+Apr 08, 2021 5:21:01 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(96)
+Apr 08, 2021 5:21:01 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(96)
+Apr 08, 2021 5:21:02 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(97)
+Apr 08, 2021 5:21:02 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(97)
+Apr 08, 2021 5:21:02 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(97)
+Apr 08, 2021 5:21:03 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(98)
+Apr 08, 2021 5:21:04 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(99)
+Apr 08, 2021 5:21:04 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(99)
+Apr 08, 2021 5:21:05 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(100)
+Apr 08, 2021 5:21:05 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(100)
+Apr 08, 2021 5:21:05 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(100)
+Apr 08, 2021 5:21:06 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(101)
+Apr 08, 2021 5:21:07 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(102)
+Apr 08, 2021 5:21:08 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(103)
+Apr 08, 2021 5:21:08 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(103)
+Apr 08, 2021 5:21:08 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(103)
+Apr 08, 2021 5:21:09 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(104)
+Apr 08, 2021 5:21:10 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(105)
+Apr 08, 2021 5:21:10 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(105)
+Apr 08, 2021 5:21:10 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(105)
+Apr 08, 2021 5:21:10 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(105)
+Apr 08, 2021 5:21:11 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(106)
+Apr 08, 2021 5:21:12 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(107)
+Apr 08, 2021 5:21:12 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(107)
+Apr 08, 2021 5:21:12 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(107)
+Apr 08, 2021 5:21:13 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(108)
+Apr 08, 2021 5:21:13 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(108)
+Apr 08, 2021 5:21:14 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(109)
+Apr 08, 2021 5:21:14 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(109)
+Apr 08, 2021 5:21:15 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(110)
+Apr 08, 2021 5:21:15 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(110)
+Apr 08, 2021 5:21:16 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(111)
+Apr 08, 2021 5:21:16 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(111)
+Apr 08, 2021 5:21:17 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(112)
+Apr 08, 2021 5:21:17 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(112)
+Apr 08, 2021 5:21:17 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(112)
+Apr 08, 2021 5:21:18 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(113)
+Apr 08, 2021 5:21:18 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(113)
+Apr 08, 2021 5:21:18 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(113)
+Apr 08, 2021 5:21:19 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(114)
+Apr 08, 2021 5:21:20 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(115)
+Apr 08, 2021 5:21:20 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(115)
+Apr 08, 2021 5:21:21 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(116)
+Apr 08, 2021 5:21:22 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(117)
+Apr 08, 2021 5:21:22 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(117)
+Apr 08, 2021 5:21:23 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(118)
+Apr 08, 2021 5:21:23 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(118)
+Apr 08, 2021 5:21:24 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(119)
+Apr 08, 2021 5:21:24 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(119)
+Apr 08, 2021 5:21:25 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(120)
+Apr 08, 2021 5:21:25 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(120)
+Apr 08, 2021 5:21:26 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(121)
+Apr 08, 2021 5:21:26 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(121)
+Apr 08, 2021 5:21:27 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(122)
+Apr 08, 2021 5:21:27 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(122)
+Apr 08, 2021 5:21:28 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(123)
+Apr 08, 2021 5:21:28 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(123)
+Apr 08, 2021 5:21:29 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(124)
+Apr 08, 2021 5:21:30 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(125)
+Apr 08, 2021 5:21:30 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(125)
+Apr 08, 2021 5:21:30 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(125)
+Apr 08, 2021 5:21:32 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(126)
+Apr 08, 2021 5:21:32 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(126)
+Apr 08, 2021 5:21:33 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(127)
+Apr 08, 2021 5:21:33 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(127)
+Apr 08, 2021 5:21:34 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(128)
+Apr 08, 2021 5:21:34 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(128)
+Apr 08, 2021 5:21:35 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(129)
+Apr 08, 2021 5:21:35 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(129)
+Apr 08, 2021 5:21:36 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(130)
+Apr 08, 2021 5:21:37 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(131)
+Apr 08, 2021 5:21:38 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(132)
+Apr 08, 2021 5:21:38 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(132)
+Apr 08, 2021 5:21:38 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(132)
+Apr 08, 2021 5:21:39 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(133)
+Apr 08, 2021 5:21:39 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(133)
+Apr 08, 2021 5:21:40 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(134)
+Apr 08, 2021 5:21:40 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(134)
+Apr 08, 2021 5:21:40 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(134)
+Apr 08, 2021 5:21:40 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(134)
+Apr 08, 2021 5:21:41 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(135)
+Apr 08, 2021 5:21:42 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(136)
+Apr 08, 2021 5:21:43 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(137)
+Apr 08, 2021 5:21:43 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(137)
+Apr 08, 2021 5:21:43 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(137)
+Apr 08, 2021 5:21:44 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(138)
+Apr 08, 2021 5:21:45 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(139)
+Apr 08, 2021 5:21:45 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(139)
+Apr 08, 2021 5:21:46 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(140)
+Apr 08, 2021 5:21:47 PM com.company.Shop addClient
+INFO: A new client joined queue(8) at time(141)
+Apr 08, 2021 5:21:47 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(141)
+Apr 08, 2021 5:21:47 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(141)
+Apr 08, 2021 5:21:47 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(141)
+Apr 08, 2021 5:21:48 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(142)
+Apr 08, 2021 5:21:49 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(143)
+Apr 08, 2021 5:21:49 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(143)
+Apr 08, 2021 5:21:49 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(143)
+Apr 08, 2021 5:21:50 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(144)
+Apr 08, 2021 5:21:50 PM com.company.Queue nextTime
+INFO: A client left queue(8) at time(144)
+Apr 08, 2021 5:21:51 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(145)
+Apr 08, 2021 5:21:51 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(145)
+Apr 08, 2021 5:21:52 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(146)
+Apr 08, 2021 5:21:52 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(146)
+Apr 08, 2021 5:21:52 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(146)
+Apr 08, 2021 5:21:53 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(147)
+Apr 08, 2021 5:21:54 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(148)
+Apr 08, 2021 5:21:54 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(148)
+Apr 08, 2021 5:21:55 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(149)
+Apr 08, 2021 5:21:55 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(149)
+Apr 08, 2021 5:21:55 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(149)
+Apr 08, 2021 5:21:55 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(149)
+Apr 08, 2021 5:21:56 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(150)
+Apr 08, 2021 5:21:57 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(151)
+Apr 08, 2021 5:21:58 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(152)
+Apr 08, 2021 5:21:59 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(153)
+Apr 08, 2021 5:21:59 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(153)
+Apr 08, 2021 5:22:00 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(154)
+Apr 08, 2021 5:22:00 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(154)
+Apr 08, 2021 5:22:01 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(155)
+Apr 08, 2021 5:22:01 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(155)
+Apr 08, 2021 5:22:02 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(156)
+Apr 08, 2021 5:22:02 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(156)
+Apr 08, 2021 5:22:03 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(157)
+Apr 08, 2021 5:22:03 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(157)
+Apr 08, 2021 5:22:04 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(158)
+Apr 08, 2021 5:22:04 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(158)
+Apr 08, 2021 5:22:05 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(159)
+Apr 08, 2021 5:22:05 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(159)
+Apr 08, 2021 5:22:05 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(159)
+Apr 08, 2021 5:22:05 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(159)
+Apr 08, 2021 5:22:06 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(160)
+Apr 08, 2021 5:22:06 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(160)
+Apr 08, 2021 5:22:07 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(161)
+Apr 08, 2021 5:22:08 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(162)
+Apr 08, 2021 5:22:08 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(162)
+Apr 08, 2021 5:22:09 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(163)
+Apr 08, 2021 5:22:09 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(163)
+Apr 08, 2021 5:22:09 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(163)
+Apr 08, 2021 5:22:10 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(164)
+Apr 08, 2021 5:22:11 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(165)
+Apr 08, 2021 5:22:11 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(165)
+Apr 08, 2021 5:22:12 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(166)
+Apr 08, 2021 5:22:12 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(166)
+Apr 08, 2021 5:22:13 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(167)
+Apr 08, 2021 5:22:13 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(167)
+Apr 08, 2021 5:22:14 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(168)
+Apr 08, 2021 5:22:15 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(169)
+Apr 08, 2021 5:22:15 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(169)
+Apr 08, 2021 5:22:15 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(169)
+Apr 08, 2021 5:22:16 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(170)
+Apr 08, 2021 5:22:16 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(170)
+Apr 08, 2021 5:22:17 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(171)
+Apr 08, 2021 5:22:18 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(172)
+Apr 08, 2021 5:22:18 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(172)
+Apr 08, 2021 5:22:18 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(172)
+Apr 08, 2021 5:22:19 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(173)
+Apr 08, 2021 5:22:20 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(174)
+Apr 08, 2021 5:22:20 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(174)
+Apr 08, 2021 5:22:20 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(174)
+Apr 08, 2021 5:22:21 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(175)
+Apr 08, 2021 5:22:21 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(175)
+Apr 08, 2021 5:22:22 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(176)
+Apr 08, 2021 5:22:23 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(177)
+Apr 08, 2021 5:22:23 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(177)
+Apr 08, 2021 5:22:23 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(177)
+Apr 08, 2021 5:22:23 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(177)
+Apr 08, 2021 5:22:24 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(178)
+Apr 08, 2021 5:22:25 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(179)
+Apr 08, 2021 5:22:25 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(179)
+Apr 08, 2021 5:22:25 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(179)
+Apr 08, 2021 5:22:26 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(180)
+Apr 08, 2021 5:22:27 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(181)
+Apr 08, 2021 5:22:27 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(181)
+Apr 08, 2021 5:22:28 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(182)
+Apr 08, 2021 5:22:28 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(182)
+Apr 08, 2021 5:22:29 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(183)
+Apr 08, 2021 5:22:30 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(184)
+Apr 08, 2021 5:22:30 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(184)
+Apr 08, 2021 5:22:31 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(185)
+Apr 08, 2021 5:22:31 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(185)
+Apr 08, 2021 5:22:32 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(186)
+Apr 08, 2021 5:22:32 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(186)
+Apr 08, 2021 5:22:33 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(187)
+Apr 08, 2021 5:22:33 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(187)
+Apr 08, 2021 5:22:34 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(188)
+Apr 08, 2021 5:22:34 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(188)
+Apr 08, 2021 5:22:35 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(189)
+Apr 08, 2021 5:22:35 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(189)
+Apr 08, 2021 5:22:35 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(189)
+Apr 08, 2021 5:22:36 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(190)
+Apr 08, 2021 5:22:36 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(190)
+Apr 08, 2021 5:22:37 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(191)
+Apr 08, 2021 5:22:37 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(191)
+Apr 08, 2021 5:22:38 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(192)
+Apr 08, 2021 5:22:38 PM com.company.Queue nextTime
+INFO: A client left queue(3) at time(192)
+Apr 08, 2021 5:22:39 PM com.company.Shop addClient
+INFO: A new client joined queue(3) at time(193)
+Apr 08, 2021 5:22:39 PM com.company.Queue nextTime
+INFO: A client left queue(1) at time(193)
+Apr 08, 2021 5:22:40 PM com.company.Shop addClient
+INFO: A new client joined queue(1) at time(194)
+Apr 08, 2021 5:22:41 PM com.company.Shop addClient
+INFO: A new client joined queue(7) at time(195)
+Apr 08, 2021 5:22:41 PM com.company.Queue nextTime
+INFO: A client left queue(5) at time(195)
+Apr 08, 2021 5:22:42 PM com.company.Shop addClient
+INFO: A new client joined queue(5) at time(196)
+Apr 08, 2021 5:22:42 PM com.company.Queue nextTime
+INFO: A client left queue(4) at time(196)
+Apr 08, 2021 5:22:43 PM com.company.Shop addClient
+INFO: A new client joined queue(4) at time(197)
+Apr 08, 2021 5:22:43 PM com.company.Queue nextTime
+INFO: A client left queue(2) at time(197)
+Apr 08, 2021 5:22:43 PM com.company.Queue nextTime
+INFO: A client left queue(6) at time(197)
+Apr 08, 2021 5:22:44 PM com.company.Shop addClient
+INFO: A new client joined queue(2) at time(198)
+Apr 08, 2021 5:22:44 PM com.company.Queue nextTime
+INFO: A client left queue(7) at time(198)
+Apr 08, 2021 5:22:46 PM com.company.Shop addClient
+INFO: A new client joined queue(6) at time(199)

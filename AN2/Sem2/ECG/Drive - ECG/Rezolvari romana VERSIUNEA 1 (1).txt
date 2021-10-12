@@ -1,0 +1,1357 @@
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+a. Obiectele 2D sunt decupate in raport cu marginile ferestrei. v
+b. Obiectele 2D sunt decupate in raport cu marginile monitorului video.
+c. Obiectele 2D sunt decupate in raport cu marginile vizorului (viewport).
+
+d. Obiectele 3D sunt decupate in raport cu marginile volumului de vizualizare. v
+
+Your answer is correct.
+
+Explicati algoritmul Sutherland-Hodgman pentru decuparea poligonului A in raport cu fereastra dreptunghiulara.
+
+Poligonul initial este definit printr-o lista de noduri.
+
+Exista 4 reguli(vezi poza):
+
+- Daca S este in interior si P este in interior, atunci se va adauga in lista P(se salveaza P)
+
+- Daca S este in interior si P este in exterior, atunci se va adauga I(intersectia dintre linie si fereastra).
+- Daca S este in exterior si P este in interior, atunci se va adauga | si P.
+
+- Daca S este in exterior si P este in exterior, nu se adauga nimic.
+
+Rezultatul este o lista de noduri care formeaza poligonul rezultat in urma decuparii.
+Poligonul convex dat prin varfurile P1,P2,P3,P4,p5 are unele din urmatoarele proprietati adevarate:
+
+PS
+
+P1
+
+P2 P3
+
+Select one or more:
+"7 a. Produsul vectorial al oricaror doua laturi consecutive este pozitiv /
+
+b. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi
+c. Doua diagonale ale poligonului sunt egale
+
+d. Numai extensiile laturilor se intersecteaza intre ele
+
+Your answer is partially correct.
+
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+
+1 a. Scena de obiecte este formată din puncte, linii, polilinii și poligoane. /
+b. Timpul de procesare depinde în principal de rezoluţia imaginii.
++ c. Timpul de procesare și dimensiunea modelului depind de complexitatea obiectului. 7
+
+d. Modelul aplicaţie este definit în termeni de pixeli.
+
+Your answer is correct.
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+a. Scena de obiecte este formată din puncte, linii, polilinii și poligoane.
+
+ b. Atributele din modelul aplicatie sunt definite ca asociate pixelilor.
+4 c. Grafica vectorială include mai puţine informaţii vizuale decât imaginea raster. v
+
+„d. Nu contine informatii semantice.
+
+Your answer is correct.
+
+ 
+nspefeo oale
+IE
+
+tiu
+
+d
+
+i
+
+ 
+Fie poligonul convex cu varfurile V1,V2,V3,V4,V5 in planul Q si vectorul N normala la planul Q. Vectorul normala N34 la latura V3VA4 poate fi calculat
+prin:
+
+ 
+
+Select one:
+
+a. Produsul vectorial al vectorilor N si V3VA
+b. Produsul scalar al vectorilor N si V3V4
+c. Produsul scalar al vectorilor V3V4 si N
+
+” d. Produsul vectorial al vectorilor V3V4 si NY
+
+Your answer is correct.
+
+Următoarele afirmaţii despre Modelul Programatorului despre un Sistem Grafic sunt adevărate:
+
+Select one or more:
+a. Modelul Grafic descrie caracteristicile dispozitivelor fizice.
+
+b. Nucleul Sistemului Grafic este definit in sistemul de coordonate aplicatie.
+"2 c. Programul de Aplicatie grafica este o componentă a Modelului Programator despre Sistemul Grafic. v
+
+d. Modelul Grafic este o componentă a Modelului Programator despre Sistemul Grafic.
+
+Your answer is partially correct.
+ 
+
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in stanga observatorului, am putea folosi:
+
+ 
+
+Q4
+Q1 a3
+NLA Q2
+A 5
+
+Select one or more:
+'_ a. Produsul vectorial dintre vectorul normala dreapta NRA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+
+b. Produsul scalar al vectorului normala stanga NLA la linia AB si vectorii de pozitie AQi, unde i=1,2,3,4 v
+c. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4 Y
+! d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct.
+ 
+
+mer Msi
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+a. Operatii de rotatie, scalare si translatie a obiectelor 3D in sistemul de coordonate de aplicatie.
+
+3 b. Operatie de transformare din vectori in pixeli in sistemul de coordonate de vizualizare. X
+c. Operatii de decupare a proiectiilor 2D dupa marginile ferestrei.
+
+d. Algoritmi de decupare 3D in planul ecran.
+
+Your answer is incorrect.
+
+Urmatoarea figura reprezinta:
+
+ 
+
+Select one or more:
+' a. Modelul Octree care descrie un obiect 3D,
+
+b. Descrierea unui obiect solid 3D prin cuburi.
+c. Compunerea unor pixeli prin cuburi.
+
+d. O structura 3D bazata pe pixeli.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+ 
+ 
+
+Explicati implementarea algoritmului Weiler-Atherton pentru decuparea poligonului A in raport cu fereastra poligonula B.
+
+A
+
+   
+
+noduri de intrare:
+-poligon
+-fereastra
+
+-intersectie
+
+poligon decupat:
+
+se porneste dintr-un varf de intersectie(care iese din feresastra de decupare)
+ 
+ 
+
+Select one or more:
+a. Produsul vectorial al vectorilor V1V2 si V2V3
+
+' b. Produsul scalar al vectorilor VAV3 si V3V2
+
+c. Produsul vectorial al vectorilor V2V3 si V1V2 X
+!_ d. Produsul vectorial al vectorilor V2V1 si V3V2
+    
+ 
+  
+
+| Select one:
+a, Produsul vectorial al vectorilor N si V
+
+- c. Produsul scalar al vectorilor N si
+„d, Produsul scalar al vectorilor V3
+
+il
+Î ;
+
+     
+  
+
+stii
+
+ 
+
+mm zearai
+
+Un observator se afla in pozitia P si priveste in directia punctului Q. Se dau coordonatele in plan ale pozitiilor oarecare P si Q si poligonul A oarecare
+cu varfurile A1, A2, A3, A4 si A5. Sa se explice o metoda prin care sa se determine pe rand urmatoarele:
+
+1. Daca poligonul A este convex sau concav
+2. In cazul favorabil de la punctul 1, folosind algoritmul Cyrus-Beck, sa se determine daca observatorul priveste exact la poligonul A
+
+3. In cazul in care s-a aplicat la pasul anterior algoritmul Cyrus-Beck sa se calculeze eficient distanta de la punctul Q la poligonul A
+
+A Am
+
+Poligonul este convex deoarece, daca verificam, toate produsele vectoriale ar avea acelasi semn.
+
+De asemenea, mergand de-a lungul laturilor poligonului, tot timpul vom merge spre stanga.
+
+In cazul poligonului concav, semnele ar fi diferite si ar exista o intoarcere spre dreapta.
+Care este relatia dintre Cubul din stanga si Diagrama din dreapta?
+
+biue=(0,0,1)  cyan=(0,1,1)
+
+       
+ 
+   
+ 
+
+magenta=(1,0,1)
+7 (Dwhite=(1,1,1)
+black=(0,0,0) g-----
+
+.
+
+green=(0,1,0)
+
+red=(1,0,0) yellow =(1,1,0)
+
+ 
+
+Select one or more:
+a. Cubul de culoare este cuprins in spatiul tridimensional reprezentat de Diagrama
+b. Ambele descriu spatii de culoare
+c. Diagrama de culoare este cuprinsa in spatiul tridimensional reprezentat de Cub
+
+d. Cele doua spatii de culoare nu sunt compatibile
+
+Explicati o metoda bazata pe algoritmul Brasenham pentru a trasa grafic urmatoarea forma din figura, compusa dintr-un segment de dreapta si un
+sfert de cerc:
+
+(10,7) (-5,7)
+
+Calculam centrul cercului pentru ca mereu trasarea dse va face din origine si vom face translatiile necesare.
+Panta este m=dx/dy;
+daca O<m=<1 aplicam alg.
+
+Cx=X2-X1
+—
+
+Rezultatul V3 obtinut prin scaderea a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are urmatoarele elemente:
+
+VI
+
+Select one;
+a. VX3=VX1 * (-vx2); vy3=wy1 * (-vy2); vz3=vz1 * (-vz2);
+b. vx3=-vx1 * vx2; vy3=-vy1 * vy2; vz3=-vz1 * vz2;
+C. VX3=VXT - VX2; vy3=vy1 - vy2; vZ3=VvzI] - vz2;
+
+d. vx3=-VX1 + VX2; vy3=-vy1 + vy2; vz3=-Vz1 + VZ2;
+ 
+
+ 
+
+ 
+
+"a. Visualization Level
+'* b. Constructive Level Y
+
+ 
+
+Urmatoarea figura reprezinta:
+
+/|
+
+N |
+SP
+
+Select one or more:
+
+a. Echilibrul intre cilindri si paralelipipeduri, intr-o scena de obiecte.
+' b. Descrierea printr-un arbore a unui obiect 3D. 4
+c. Modelul grafic al unui obiect 3D.
+
+d. Relatia dintre volume intr-o scena de obiecte.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+Linia P1P2 intersecteaza peretele in punctul P2 si sfera in Q1 si Q2. Parametrul t in punctele de intersectie Q1 si Q2 are valorile
+tQ1 si tQ2, care ar putea fi:
+
+ 
+
+gi
+
+P1
+tP1=0
+
+ 
+
+Select one:
+a. tQ1=-2.5, tQ2=0.73 %
+
+b. tQ1=5.7, tQ2=9.4
+c. tQ1=-0.74, tQ2=5.32
+d.tQ1=0.63, tQ2=4.73
+
+Your answer is incorrect.
+
+Poligonul convex dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+
+P5
+
+p4
+
+P1
+
+P2 P3
+
+Select one or more:
+
+a. Doua diagonale ale poligonului sunt egale
+b. Produsul vectoria! al oricaror doua laturi consecutive este pozitiv
+c. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi X
+
+d. Numai extensiile laturilor se intersecteaza intre ele
+
+Your answer is incorrect.
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+“a. Timpul de procesare depinde în principal de rezoluția imaginii. X
+
+b. Modelul aplicație este definit în termeni de pixeli.
+c. Scena de obiecte este formată din puncte, linii, polilinii și poligoane. /
+
+d. Timpul de procesare și dimensiunea modelului depind de complexitatea obiectului.
+
+Your answer is incorrect.
+
+Poligonul convex dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+
+P5
+
+P4
+
+p1
+
+P2 P3
+
+Select one or more:
+
+a. Cel putin o extensie a unei laturi intersecteaza poligonul
+b. Produsul vectorial al oricaror doua laturi consecutive este pozitiv /
+c. Un unghi este mai mare decat 180*
+
+d. Oricare trei varfuri consecutive ale poligonului sunt ordonate in sens invers acelor de ceasornic
+
+Your answer is correct.
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+ 
+
+Select one or more:
+a. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate al lumii reale.
+
+b. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate ecran.
+c. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate din fereastra.
+
+d. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate de vizualizare.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+
+Principiul obtinerii culorilor ca in figura este:
+
+ 
+
+Select one or more:
+
+a. Este solutia constructiva de la imprimantele color pe hartie *
+b. Este principiul aditiv
+c. Principiul substractiv +
+
+d. Este principiul folosit la tuburile catodice (CRT)
+Fie poligonul convex cu varfurile V1,V2,V3,V4,V5 in planul Q si vectorul N normala la planul Q. Vectorul normala N34 la latura
+V3V4 poate fi calculat prin:
+
+ 
+
+Select one:
+a. Produsul vectorial al vectorilor N si V3V4
+
+b. Produsul scalar al vectorilor V3V4 si N
+c. Produsul vectorial al vectorilor V3V4 si N
+
+d. Produsul scalar al vectorilor N si V3V4
+
+Your answer is correct.
+
+Ce culoare se formeaza daca se combina in intensitati egale culorile Red, Blue si Green?
+
+blue=(0,0,1)  cvan=(0,1,1)
+
+  
+
+magenta=(1,0,1)
+Dunite=(1,1,1)
+green=(0,1,0)
+
+red=(1,0,0) yelow=(1,1,0)
+
+Select one or more;
+a. Nuanta de Magenta
+
+b. Nuanta de Galben (Yellow)
+c. Nuanta de culoare pe diagonala cubului intre Black si White /
+
+d. Nivel de Gri
+Suma V3 a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are elementele:
+
+vV2
+VI
+
+Select one:
+a. vx3=Vvx1 + VX2; vy3=vyl + vy2; vz3=vzI + vz2;
+
+b. vx3=vX1 * vx2; vy3=vy1 * vy2; vz3=vz! * vz2;
+C. vx3=VX1 = vX2; vy3=vy1 - vy2; vz3=vzI - vz2;
+d. vx3=vx1 * vx2; vy3=vy1 + vy2; vz3=vz1 - vz2;
+
+Your answer is correct.
+
+Fie poligonul convex cu varfurile V1,V2,V3,V4,V5 in planul Q si vectorul N normala la planul Q. Vectorul normala N23 la latura
+
+V2V3 poate fi calculat prin:
+
+N
+VA N34
+V5
+v3
+N23
+Q VI
+v2
+
+Select one:
+a. Produsul vetorial al vectorilor N si V2V3
+
+b. Produsul scalar al vectorilor V2V3 si N
+c. Produsul scalar al vectorilor N si V2V3
+
+d. Produsul vetorial al vectorilor V2V3 si N w
+
+Your answer is correct,
+Cubul C este in fata planului Q daca:
+
+ 
+
+ 
+
+Select one or more:
+
+a. Produsul scalar al vectorilor N si V este negativ
+b. Produsul scalar al vectorilor V si N este negativ
+c. Produsul scalar al vectorilor N si V este pozitiv
+
+d. Produsul scalar al vectorilor V si N este positive
+
+Your answer is correct.
+
+Un observator se afla in pozitia P si priveste in directia punctului Q. Se dau coordonatele in plan ale pozitiilor oarecare P si Q si
+poligonul A oarecare cu varfurile A1, A2, A3, A4 si A5. Sa se explice o metoda prin care sa se determine pe rand urmatoarele:
+
+1. Daca poligonul A este convex sau concav
+
+2. In cazul favorabil de la punctul 1, folosind algoritmul Cyrus-Beck, sa se determine daca observatorul priveste exact la poligonul
+A
+
+3. În cazul in care s-a aplicat la pasul anterior algoritmul Cyrus-Beck sa se calculeze eficient distanta de la punctul Q la poligonul
+
+AS
+
+A2
+
+1. Poligonul A este convex deoarece toate unghiurile sunt mai mici decat 180 de arade. nici un unghi "nu se intoarce spre
+
+ 
+Următoarele afirmaţii despre Modelul Programatorului despre un Sistem Grafic sunt adevărate:
+
+Select one or more:
+a. Valuator este un dispozitiv fizic care genereaza un sir de caractere.
+
+b. Stroke este un dispozitiv logic care specifica o secventa de coordonate relative, /
+c. Locator (Locatie) este un dispozitiv logic care specifica o pozitie in plan.
+
+d. Choice este un dispozitiv fizic care selecteaza un obiect aplicatie din interfata utilizator. X
+
+Your answer is incorrect.
+
+Ecuatia parametrica a unui segment de dreapta d definit de punctele PO si P1 este:
+
+P1
+
+PO
+
+Select one:
+a.P(t) =PO+P1*t,undete [0,1]
+b. P(t) = P1 + (P1 —P0)*t, undet e [0, 1]
+c. P(t) = PO*t+ (P1—PO)t, unde t e [0, 1]
+" d.P(t) = PO + (P1—P0) *t, undet e [0, 1] 7
+
+Your answer is correct.
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+' a, Atributele din modelul aplicatie sunt definite ca asociate pixelilor. X
+b. Nu contine informatii semantice.
+c, Scena de obiecte este formată din puncte, linii, polilinii și poligoane.
+
++ d. Grafica vectorială include mai puţine informaţii vizuale decât imaginea raster. /
+
+Un observator se afla in pozitia Q si priveste in directia punctului P. Se dau coordonatele in plan ale pozitiilor oarecare Q si P si
+poligonul B oarecare cu varfurile B1, B2, B3, B4 si B5. Sa se explice o metoda prin care sa se determine pe rand urmatoarele:
+
+1. Daca poligonul B este convex sau concav
+
+2. In cazul favorabil de la punctul 1, folosind algoritmul Cyrus-Beck, sa se determine daca observatorul priveste exact la
+poligonul B
+
+3. In cazul in care s-a aplicat la pasul anterior algoritmul Cyrus-Beck sa se calculeze eficient distanta de la punctul P la poligonul
+B
+
+B5
+
+B1 P
+
+B2
+
+ZI 20200609_141141.jpg
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in dreapta observatorului, am putea folosi:
+
+NLA
+
+>
+TD $
+
+Q1 Q3
+
+Q2
+
+Select one or more:
+a. Produsul vectorial dintre vectorul normala dreapta NRA Ia linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+b. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+c. Produsul scalar al vectorului normala stanga NLA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4 v
+
+d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct,
+
+Explicati algoritmul Sutherland-Hodgman pentru decuparea poligonului A in raport cu fereastra dreptunghiulara.
+
+ 
+
+3 Pp7zip
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in stanga observatorului, am putea folosi
+
+Q4
+Q1 Q3
+NLA Q2
+..».
+A B
+
+Select one or more:
+a. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4%
+
+b. Produsul vectorial dintre vectorul normala dreapta NRA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+c. Produsul scalar al vectorului normala stanga NLA la linia AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct.
+
+Suma V3 a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are elementele:
+
+VI
+
+Select one:
+a. vx3=vX1 - VX2; vy3=vy1 - vy2; vz3=vz] - vz2;
+b. vx3=Vvx1 * vx2; vy3=vy1 * vy2; vz3=vz1 * vz2;
+C. VX3=VX1 + VX2; vy3=vy1 + vy2; vz3=vz] + vz2;
+d. vx3=vx1 * vx2; vy3=vy1 + vy2; vz3=vz] - vz2;
+
+Your answer is correct.
+Ce reprezinta aceasta figura?
+
+blue=(0,0,1)  cyan=ţ0,1,1)
+
+ 
+  
+  
+
+magenta=(1,0,1)
+
+green=(0,1,9)
+
+red=(1,0,0) yetow=(1,1,0)
+
+Select one or more:
+
+a. Complementaritatea psihologica a culorilor
+b. Descrie capacitatea de combinare aditiva a culorilor
+c. Spatiul cubic RGB de culoare
+
+d. Relatia cu standardul de culori CIE
+
+Your answer is correct.
+
+Linia P1P2 intersecteaza peretele in punctul P2 si sfera in Q1 si Q2. Parametrul t in punctele de intersectie Q1 si Q2 are valorile
+tQ1 si tQ2, care ar putea fi:
+
+<<
+
+p1
+1P1=0
+
+ 
+
+Select one;
+a. tQ1=0.23, tQ2=0.73
+
+b.tQ1=-2,5, tQ2=0.73
+c. tQ1=0.7, tQ2=3.4
+d. tQ1=0.74, tQ2=0.32
+
+Your answer is correct.
+Ce reprezinta aceasta figura?
+
+blue=(0,0,1) cvan=ţ0,1,1)
+
+  
+   
+
+magenta=(1,0,1)
+
+green=(0,1,9)
+
+red=(1,0,0) yetow= (1,10)
+
+Select one or more:
+
+a. Complementaritatea psihologica a culorilor
+b. Descrie capacitatea de combinare aditiva a culorilor
+c. Spatiul cubic RGB de culoare /
+
+d. Relatia cu standardul de culori CIE
+
+Your answer is correct.
+
+Poligonul concav dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+P5
+
+p2
+
+Select one or more:
+
+a. Numai extensiile laturilor se intersecteaza intre ele
+b. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi
+c. Cel putin pentru doua laturi consecutive produsul vectorial este negativ 1
+
+d. Doua diagonale ale poligonului sunt egale
+
+Your answer is correct.
+Urmatoarea figura reprezinta:
+
+9
+
+/|
+
+PR 3
+d
+
+Select one or more:
+
+a. Echilibrul intre cilindri si paralelipipeduri, intr-o scena de obiecte.
+b. Descrierea printr-un arbore a unui obiect 3D. 1
+c. Modelul grafic al unui obiect 3D.
+
+d. Relatia dintre volume intr-o scena de obiecte.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+
+a. Algoritmi de decupare 3D in planul ecran.
+1 b. Operatii de rotatie, scalare si translatie a obiectelor 3D in sistemul de coordonate de aplicatie.
+
++ c. Operatie de transformare din vectori in pixeli in sistemul de coordonate de vizualizare. X
+
+d. Operatii de decupare a proiectiilor 2D dupa marginile ferestrei.
+
+Your answer is incorrect.
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+
+"7 a. Atributele din modelul aplicatie sunt definite ca asociate pixelilor. X
+b. Nu contine informatii semantice.
+c. Scena de obiecte este formată din puncte, linii, polilinii şi poligoane.
+
+“ d. Grafica vectorială include mai puţine informaţii vizuale decât imaginea raster.
+
+Your answer is incorrect.
+
+Următoarele afirmaţii despre Modelul Programatorului despre un Sistem Grafic sunt adevărate:
+
+Select one or more:
+
+a, Valuator este un dispozitiv grafic logic de intrare.
+“1 b. Mouse este un dispozitiv grafic fizic.
+c. Joystick este o functie de dispozitiv logic de iesire.
+
+d. Scanner este o functie de dispozitiv logic de iesire.
+
+Your answer is correct.
+Linia P1P2 intersecteaza peretele in punctul P2 si sfera in Q1 si Q2. Parametrul t in punctele de intersectie Q1 si Q2 are valorile
+tQ1 si tQ2, care ar putea fi:
+
+( a1 a2
+pi iai ta2
+1P1=0
+
+ 
+
+Select one;
+a. tQ1=0.23, tQ2=0.73
+
+b.tQ1=-2.5, tQ2=0.73
+c. tQ1=0.7, tQ2=3.4
+d. tQ1=0.74, tQ2=0.32
+
+Your answer is correct.
+
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in stanga observatorului, am putea folosi:
+
+Q4
+Q Q3
+NLA Q2
+e +»
+A B
+
+Select one or more:
+a. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4 v
+
+b. Produsul vectorial dintre vectorul normala dreapta NRA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+c. Produsul scalar al vectorului normala stanga NLA la linia AB si vectorii de pozitie AQi, unde i=1,2,3,4 %
+
+d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct.
+ 
+Suma V3 a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are elementele:
+
+vi
+
+Select one:
+a. Vx3=VX1 - VX2; vy3=vy1 - vy2; vz3=vzi - vz2;
+b. vx3=vx1 * vx2; vy3=vy1 * vy2; vz3=vz! * vz2;
+5 Cc. VX3=VX1 + VX2; vy3=vy1 + Vy2; vz3=vzI + vz2; Y
+d. vx3=vx!] * vx2; vy3=wy1 + vy2; vz3=vz! - vz2;
+
+Your answer is correct,
+
+Urmatoarea figura reprezinta:
+
+9
+
+4
+
+a E
+Îl <p
+
+Select one or more:
+a. Echilibrul intre cilindri si paralelipipeduri, intr-o scena de obiecte.
+! b. Descrierea printr-un arbore a unui obiect 3D.
+c. Modelul grafic al unui obiect 3D.
+
+d. Relatia dintre volume intr-o scena de obiecte.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+a. Algoritmi de decupare 3D in planul ecran.
+
+" b, Operatii de rotatie, scalare si translatie a obiectelor 3D in sistemul de coordonate de aplicatie. /
+c. Operatie de transformare din vectori in pixeli in sistemul de coordonate de vizualizare. X
+
+d. Operatii de decupare a proiectiilor 2D dupa marginile ferestrei.
+
+Your answer is incorrect.
+
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in dreapta observatorului, am putea folosi:
+
+NLA
+
+ 
+
+Q1 Q3
+
+Q2
+
+Select one or more:
+
+a. Produsul vectorial dintre vectorul normala dreapta NRA Ia linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+"7 b. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4 1
+c. Produsul scalar al vectorului normala stanga NLA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4 v
+
+d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct.
+Ecuatia parametrica a unui segment de dreapta d definit de punctele PO si P1 este:
+
+Pl
+
+PO
+
+Select one:
+a. P(t) = PO + P1 *t,undet e [0, 1]
+b. P(t] = P1 +4P1-—P0) *t, unde te [0, 1]
+c, P(t) = PO *t + (P1 — PO), unde t e 10, 1]
+d. P(î) = PO + (P1—P0)*t, undet e [0, 1]
+
+Your answer is correct.
+
+Suma V3 a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are elementele:
+
+vi
+
+Select one:
+a. vx3=VX1 - vx2; vy3=vy1 - vy2; vz3=vz! - vz2;
+b. vx3=vx1 * vx2; vy3=vy1 * vy2; vz3=vz1 * vz2;
+C. Vx3=VX1 + VX2; vy3=vyl + vy2; vz3=vz1 + vz2; V
+d. vx3=vx1 * vx2; vy3=vy1 + vy2; vz3=vz1 - vz2;
+
+Your answer is correct.
+Poligonul concav dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+p5
+
+P4
+
+p1
+
+p2
+
+Select one or more:
+
+a. Numai extensiile laturilor se intersecteaza intre ele
+b. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi /
+c. Cel putin pentru doua laturi consecutive produsul vectorial este negativ /
+
+d. Doua diagonale ale poligonului sunt egale
+
+Your answer is correct.
+
+Observatorul priveste spre punctul B. Pentru a determina daca obiectul Q este in stanga observatorului, am putea folosi:
+
+Q4
+Q1 Q3
+NLA Q2
+. »
+A B
+
+Select one or more:
+a. Produsul vectorial al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4 v
+
+b. Produsul vectorial dintre vectorul normala dreapta NRA la linia AB in A si vectorii de pozitie AQi, unde i=1,2,3,4
+c. Produsul scalar al vectorului normala stanga NLA Ia linia AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+d. Produsul scalar al vectorului AB si vectorii de pozitie AQi, unde i=1,2,3,4
+
+Your answer is correct.
+Urmatoarea figura reprezinta:
+
+9
+
+/)
+
+„A [Esi
+SP
+
+Select one or more:
+
+a. Echilibrul intre cilindri si paralelipipeduri, intr-o scena de obiecte.
+b. Descrierea printr-un arbore a unui obiect 3D. w
+c. Modelul grafic al unui obiect 3D.
+
+d. Relatia dintre volume intr-o scena de obiecte.
+
+Your answer is partially correct.
+
+You have correctiy selected 1.
+
+Linia P1P2 intersecteaza peretele in punctul P2 si sfera in Q1 si Q2. Parametrul t in punctele de intersectie Q1 si Q2 are valorile
+tQ1 si tQ2, care ar putea fi:
+
+ 
+
+Select one:
+a. tQ1=0.23, tQ2=0.73 w
+
+b.tQ1=-2.5, tQ2=0.73
+c. tQ1=0.7, tQ2=3.4
+d. tQ1=0.74, tQ2=0.32
+
+Your answer is correct.
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+a. Algoritmi de decupare 3D in planul ecran.
+
+" b. Operatii de rotatie, scalare si translatie a obiectelor 3D in sistemul de coordonate de aplicatie, /
++ c. Operatie de transformare din vectori in pixeli in sistemul de coordonate de vizualizare. %
+
+d. Operatii de decupare a proiectiilor 2D dupa marginile ferestrei.
+
+Your answer is incorrect.
+
+Prin adunarea unui punct P1(x1, y1, z1) cu un vector V1(vx1, vy1, vz1) se obtine ca rezultat:
+
+VI
+
+P1
+
+Select one:
+a. Doi vectori V1(vx1,vy1,vz1) si V2(x2,y2,z2), unde vx2=x1+vxX1, vy2=y1-+vy1, vz2=21+vz1
+b. Un vector V2(vx2,vy2,vz2), unde vx2=x1+vx1, vy2=y1+vy1, vz2=z1+vz1
+c. Doua puncte P1(x1,y1,z1) si P2(x2,y2,z2), unde x2=x1+vx1, y2=y1+vy1, z2=z1+vz1
+” d.Un punct P2(X2,y2,z2), unde x2=X1+vx1, y2=y1+vy1, z2=z1+vz1 v
+
+Your answer is correct.
+Fie poligonul convex cu varfurile V1,V2,V3,V4,V5 in planul Q. Vectorul N normala la planul Q poate fi calculat prin;
+
+N
+va
+V5 va
+Q Vi
+v2
+
+Select one or more:
+
+a. Produsul vectorial al vectorilor V2V1 si V3V2
+b. Produsul vectorial al vectorilor V2V3 si V1V2 X
+c. Produsul vectorial al vectorilor V1V2 si V2V3 w
+
+d. Produsul scalar al vectorilor V4V3 si V3V2
+
+Your answer is incorrect.
+
+Poligonul convex dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+
+P5
+pP4
+PI
+P2 P3
+
+Select one or more:
+
+a. Numai extensiile laturilor se intersecteaza intre ele
+b. Produsul vectorial al oricaror doua laturi consecutive este pozitiv w
+c. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi
+
+d. Doua diagonale ale poligonului sunt egale X
+
+Your answer is incorrect.
+„o EEE EEE RER E E RR DĂ: 3
+Principiul obtinerii culorilor ca in figura este:
+
+ 
+
+Select one or more:
+
+a. Este principiul folosit la tuburile catodice (CRT)
+b. Principiul care filtreaza culorile de baza Cyan, Magenta si Yellow (Galben)
+c. Este principiul care adauga componente de culoare
+
+d. Este solutia constructiva cu hartia care absoarbe componentele de culoare
+
+Your answer is correct.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+tii I FIITi lili ti diitii
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+
+a. Scena de obiecte este formată din puncte, linii, polilinii și poligoane. 1
+b. Grafica vectorială include mai puţine informaţii vizuale decât imaginea raster.
+c. Atributele din modelul aplicatie sunt definite ca asociate pixelilor.
+
+d. Nu contine informatii semantice.
+
+Your answer is correct.
+
+Următoarele afirmaţii despre Modelul Programatorului despre un Sistem Grafic sunt adevărate:
+
+Select one or more:
+
+a. Nucleu Sistemului Grafic este definit in coordonate virtuale normalizate.
+b. Modelul Grafic descrie imaginea de pe ecran in termeni de pixeli.
+c. Programul de Aplicatie grafica consta dintr-o succesiune de comenzi grafice. /
+
+d. Dispozitivele Grafice executa programul de aplicatie.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+Poligonul convex dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+p5
+
+p1
+
+P2 P3
+
+Select one or more:
+1] a. Cel putin o extensie a unei laturi intersecteaza poligonul
+
+b. Produsul vectorial al oricaror doua laturi consecutive este pozitiv /
+1 €.Un unghi este mai mare decat 180%
+
+d. Oricare trei varfuri consecutive ale poligonului sunt ordonate in sens invers acelor de ceasornic
+
+Your answer is correct.
+
+ 
+
+ 
+Persistenta luminoasa a stratului de fosfor de pe ecranul monitorului are efect asupra:
+
+Select one or more:
+
+a. Dimensiunii pixelilor pe ecran
+” b. Intensitatea culorilor si contrastul obiectelor de pe ecran X
+c. Vitezei de animatie a scenei de obiecte
+
+d. Frecventei de regenerare a imaginii pe ecran
+Your answer is incorrect.
+
+Urmatoarea figura reprezinta:
+
+9
+
+/j
+
+i =)
+=
+
+Select one or more:
+
+a. Echilibrul intre cilindri si paralelipipeduri, intr-o scena de obiecte.
+b. Descrierea printr-un arbore a unui obiect 3D.
+c. Modelul grafic al unui obiect 3D.
+
+d. Relatia dintre volume intr-o scena de obiecte.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+a. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate al lumii reale. *
+
+!_| b. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate ecran.
+| €. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate din fereastra.
+1! d. Coordonatele (x,y,z) ale obiectelor 3D sunt raportate la sistemul de coordonate de vizualizare.
+
+Your answer is partially correct.
+You have correctly selected 1.
+
+ 
+Distanta punctului B la planul Q este data prin:
+
+ 
+
+Select one:
+a. Produsul scalar al vetorilor V si N, amandoi normalizați
+
+b. Produsul scalar al vetorilor V si N
+“ c. Modulul produsului scalar al vetorilor V si N, daca N este normalizat
+
+d. Produsul scalar al vetorilor V si N, daca N este normalizat
+
+Your answer is correct.
+
+ 
+Suma V3 a doi vectori V1(vx1, vy1, vz1) si V2(vx2, vy2, vz2) are elementele
+
+VI
+
+Select one:
+* a. VX3=VX1 + VX2; Vy3=vy1 + Vy2; vz3=vz1 + vz2; Y
+
+b. vx3=vX1 - vx2; vy3=vy1 - vy2; vz3=vzi - vz2;
+
+C. VX3=VX1 * VX2; Vy2=Wy1 * Vy2; vz3=Vz1 * v22;
+
+d. vx3=vx1 * vx2; vy3=vy1 + vy2; vz3=vz1 - vz2;
+
+Your answer is correct.
+
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+a. Scena de obiecte este formată din puncte, linii, polilinii și poligoane.
+
+b. Timpul de procesare depinde în principal de rezoluţia imaginii.
+c. Timpul de procesare și dimensiunea modelului depind de complexitatea obiectului. /
+
+d. Modelul aplicaţie este definit în termeni de pixeli.
+
+Your answer is correct.
+ 
+
+Ecuatia parametrica a unei linii d definita de punctele PO si P1, orientata de la PO spre P1 este:
+
+P1
+
+Select one:
+a. P(t) = PO*t+(P1—P0)*t,undeteR
+_ b.P(9=PO+P1*t,undeteR
+
+% c.P(9) = PO + (P1-P0)*t,undeteR
+v
+
+d. P(t) = P1 + (P1-P0)*t,undeteR
+
+Your answer is correct.
+Linia P1P2 intersecteaza peretele in punctul P2 si sfera in Q1 si Q2. Parametrul t in punctele de intersectie Q1 si Q2 are valorile tQ1 si tQ2, care ar
+putea fi:
+
+gi
+
+P1
+WP1=0
+
+ 
+
+Select one:
+* a.tQ1=0.7,tQ2=3.4 %
+b.tQ1=7.4, tQ2=3.2
+c. tQ1=-2.5, tQ2=-7.3
+d. tQ1=2.5, tQ2=7.3
+
+Your answer is incorrect.
+
+Ce culoare se formeaza daca se combina in intensitati egale culorile Red, Blue si Green?
+
+bive=(0,0,1)  cyana(0,1,1)
+
+ 
+  
+  
+
+magenta=(1,0,1)
+
+green=(0,1,0)
+
+red=(1,0,0) yellow =(1,1,0)
+
+Select one or more;
+a. Nivel de Gri v
+
+b. Nuanta de Magenta X
+c. Nuanta de culoare pe diagonala cubului intre Black si White
+
+d. Nuanta de Galben (Yellow)
+
+Your answer is incorrect.
+Poligonul concav dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+p5
+
+P4
+
+P1
+
+p2
+
+Select one or more:
+
+a. Doua diagonale ale poligonului sunt egale
+b. Numai extensiile laturilor se intersecteaza intre ele
+c. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi /
+
+d. Cel putin pentru doua laturi consecutive produsul vectorial este negativ /
+
+Your answer is correct.
+
+Explicati algoritmul Sutherland-Hodgman pentru decuparea poligonului A in raport cu fereastra dreptunghiulara.
+
+ 
+
+Poligonul initial este definit printr-o lista de noduri.
+
+Exista 4 reguli(vezi poza):
+
+- Daca S$ este in interior si P este in interior, atunci se va adauga in lista P(se salveaza P)
+
+- Daca S este in interior si P este in exterior, atunci se va adauga I(intersectia dintre linie si fereastra).
+- Daca $ este in exterior si P este in interior, atunci se va adauga | si P.
+
+- Daca S este in exterior si P este in exterior, nu se adauga nimic.
+
+Rezultatul este o lista de noduri care formeaza poligonul rezultat in urma decuparii.
+
+= 1jpeg
+In secventa de prelucrari grafice (pipeline grafic) au loc urmatoarele operatii:
+
+ 
+
+Select one or more:
+"» a. Obiectele 2D sunt decupate in raport cu marginile ferestrei. v
+
+b. Obiectele 2D sunt decupate in raport cu marginile monitorului video.
+c. Obiectele 2D sunt decupate in raport cu marginile vizorului (viewport).
+
+" d. Obiectele 3D sunt decupate in raport cu marginile volumului de vizualizare.
+
+Your answer is correct.
+
+Poligonul convex dat prin varfurile P1,P2,P3,P4,P5 are unele din urmatoarele proprietati adevarate:
+
+PS
+
+P2 P3
+
+Select one or more:
+
+7)
+
+"+ a. Produsul vectorial al oricaror doua laturi consecutive este pozitiv
+b. Varfurile poligonului se afla de ambele parti ale uneia dintre laturi
+c. Doua diagonale ale poligonului sunt egale
+
+d. Numai extensiile laturilor se intersecteaza intre ele
+
+Your answer is partially correct.
+ 
+
+sati
+
+Urmatoarele afirmatii despre grafica vectoriala sunt adevarate:
+
+ 
+
+Select one or more:
+a. Scena de obiecte este formată din puncte, linii, polilinii și poligoane.
+. b. Atributele din modelul aplicatie sunt definite ca asociate pixelilor.
+c. Grafica vectorială include mai puţine informaţii vizuale decât imaginea raster. /
+
+"d. Nu contine informatii semantice.
+
+Your answer is correct.
+Persistenta luminoasa a stratului de fosfor de pe ecranul monitorului are efect asupra:
+
+select one or more:
+
+1 a. Frecventei de regenerare a imaginii pe ecran
+1 b. Dimensiunii pixelilor pe ecran
+! c. Vitezei de animatie a scenei de obiecte
+
+“9 d. Intensitatea culorilor si contrastul obiectelor de pe ecran X
+
+Your answer is incorrect.
+
+Următoarele afirmaţii despre Modelul Programatorului despre un Sistem Grafic sunt adevărate:
+
+Select one or more:
+a. Modelul Grafic descrie caracteristicile dispozitivelor fizice.
+
+b. Nucleul Sistemului Grafic este definit in sistemul de coordonate aplicatie.
+c. Programul de Aplicatie grafica este o componentă a Modelului Programator despre Sistemul Grafic.
+d. Modelul Grafic este o componentă a Modelului Programator despre Sistemul Grafic.
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+
+ 
+ 
+ 
+

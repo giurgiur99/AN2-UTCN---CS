@@ -1,0 +1,36 @@
+﻿  3DView.cpp
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\auxiliary.h(127,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\auxiliary.h(127,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\auxiliary.h(133,138): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\auxiliary.h(146,125): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(119,120): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(119,102): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(119,84): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(119,56): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(200,145): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(200,123): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(200,101): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\3DView.cpp(200,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  camera.cpp
+  mat3.cpp
+  mat4.cpp
+  projection.cpp
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(18,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(19,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(20,48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(21,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(23,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(23,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(186,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(186,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(186,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\projection.cpp(186,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  transform.cpp
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\transform.cpp(75,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\transform.cpp(131,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\transform.cpp(142,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\3DView\transform.cpp(153,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vec3.cpp
+  vec4.cpp
+  Generating Code...
+  3DView.vcxproj -> C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\3DView\3DView\Debug\3DView.exe

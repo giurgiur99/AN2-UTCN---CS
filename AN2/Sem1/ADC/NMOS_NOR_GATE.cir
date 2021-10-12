@@ -1,0 +1,35 @@
+[aimspice]
+[description]
+303
+NOR GATE
+
+m1 out a 0 0 nmos_m1 L=1u W=1u
+.model nmos_m1 nmos vto = 1.5 
+
+m2 d g out out nmos_m2 L=25u W=1u
+.model nmos_m2 nmos vto = 2.5
+
+m3 out b 0 0 nmos_m3 L=1u W=1u
+.model nmos_m3 nmos vto = 1.5
+
+vdd d 0 dc 5
+vgg g 0 dc 7.5
+
+va a 0 dc 5 Pulse(0 5 0 1e-10 1e-10 1e-9 2e-9)
+vb b 0 dc 0 
+[tran]
+1e-11
+6e-9
+X
+X
+0
+[ana]
+4 1
+0
+1 1
+1 1 -1 6
+3
+v(out)
+v(a)
+v(b)
+[end]

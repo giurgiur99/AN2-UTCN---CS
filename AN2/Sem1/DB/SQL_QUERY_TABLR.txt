@@ -1,0 +1,107 @@
+create table if not exists body
+(
+	bodyID int not null
+		primary key,
+	bodyType text not null,
+	nrOfDors int null
+);
+
+create table if not exists carState
+(
+	carStateID int not null,
+	state text null,
+	constraint carState_carStateID_uindex
+		unique (carStateID)
+);
+
+alter table carState
+	add primary key (carStateID);
+
+create table if not exists color
+(
+	colorID int auto_increment,
+	colorName text not null,
+	constraint color_colorID_uindex
+		unique (colorID)
+);
+
+alter table color
+	add primary key (colorID);
+
+create table if not exists manufacturer
+(
+	manufacturerID int not null,
+	name text null,
+	constraint manufacturer_manufacturerID_uindex
+		unique (manufacturerID)
+);
+
+alter table manufacturer
+	add primary key (manufacturerID);
+
+create table if not exists cars
+(
+	ID int auto_increment
+		primary key,
+	manufacturedID int not null,
+	stateID int not null,
+	licensePlate text null,
+	date date null,
+	colorID int not null,
+	bodyID int not null,
+	constraint cars_stateID_uindex
+		unique (stateID),
+	constraint cars_body_bodyID_fk
+		foreign key (bodyID) references body (bodyID),
+	constraint cars_carState_carStateID_fk
+		foreign key (stateID) references carState (carStateID),
+	constraint cars_color_colorID_fk
+		foreign key (colorID) references color (colorID),
+	constraint cars_manufacturer_manufacturerID_fk
+		foreign key (manufacturedID) references manufacturer (manufacturerID)
+);
+
+create table if not exists person
+(
+	personID int not null,
+	phone text not null,
+	name text null,
+	isAdmin tinyint(1) default 0 null,
+	constraint person_personID_uindex
+		unique (personID)
+);
+
+alter table person
+	add primary key (personID);
+
+create table if not exists admin
+(
+	adminID int not null,
+	CNP text not null,
+	username text not null,
+	password text not null,
+	email text not null,
+	constraint admin_adminID_uindex
+		unique (adminID),
+	constraint admin_person_personID_fk
+		foreign key (adminID) references person (personID)
+);
+
+alter table admin
+	add primary key (adminID);
+
+create table if not exists user
+(
+	userID int not null,
+	username text not null,
+	password text not null,
+	email text not null,
+	constraint user_userID_uindex
+		unique (userID),
+	constraint user_person_personID_fk
+		foreign key (userID) references person (personID)
+);
+
+alter table user
+	add primary key (userID);
+

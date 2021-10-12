@@ -1,0 +1,28 @@
+Report 1 
+Order ID: 6
+Client ID: 2
+
+Price: 150.0
+
+Products: Fresh Corn Tortillas 
+Barbecued Shrimp 
+
+
+Order ID: 8
+Client ID: 5
+
+Price: 100.0
+
+Products: Smoked Caviar and Hummus on Pita Toasts 
+Arugula Salad with Heirloom Tomatoes and Red Onion 
+
+
+Order ID: 7
+Client ID: 4
+
+Price: 119.0
+
+Products: Barbecued Shrimp 
+Quick & Spicy Asian Pickles 
+
+

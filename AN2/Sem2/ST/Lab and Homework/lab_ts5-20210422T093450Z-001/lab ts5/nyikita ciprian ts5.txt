@@ -1,0 +1,65 @@
+% t=0:0.1:50;
+% r=sin(t);
+% h=tf([0.1 1],[1 1]);
+% h=tf([10 10],[1 10]);
+% h=tf(10,[1 1 1]);
+% h=tf([1 1 1],[1 1 10]);
+% h=tf([10 10000],[1 1 1]);
+
+% h=tf([10.^9 0],[1 10001000 10.^10]);
+% lsim(h,r,t);
+% bode(h);
+% close all
+% open('fig1.fig')
+% open('fig2.fig')
+% open('fig3.fig')
+% open('fig4.fig')
+% open('fig5.fig')
+% open('fig6.fig')
+% open('fig7.fig')
+% open('fig8.fig')
+
+% %w=[1 2 5 8 9.5 10 20 100];
+% M=[0.1007 0.1037 0.128 0.2076 0.2524 0.24 0.0322 0.0014]
+% Mdb=20*log10(M)
+
+% semilogx(w,Mdb)
+% hold on
+
+plot(time,necg,'b');
+[nume,den] = butter(4,[0.5*2*pi 50*2*pi],'bandpass','s');
+h=tf(nume,den);
+% bode(h);
+
+lsim(h,necg,time)
+
+hold on
+h2=tf([1/pi 0], [1/(100*pi*pi) 101/(100*pi) 1]);
+
+h1=h2*h2*h2*h2;
+% bode(h1)
+lsim(h1,necg,time)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

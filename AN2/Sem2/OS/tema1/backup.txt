@@ -1,0 +1,280 @@
+#include <stdio.h>
+#include <dirent.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <string.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int fsize(FILE *fp){
+    int prev=ftell(fp);
+    fseek(fp, 0L, SEEK_END);
+    int sz=ftell(fp);
+    fseek(fp,prev,SEEK_SET); //go back to where we were
+    return sz;
+}
+
+
+void list(const char *path, int recursive, int smaller_value, int has_perm_execute, int lvl)
+{
+
+    DIR *directory = opendir(path);
+    struct dirent *d;
+    if (directory != NULL)
+    {
+
+	    if (!lvl)
+	     printf("SUCCESS\n");
+	    d = readdir(directory);
+	while (d != NULL)
+	{
+	    if (strcmp(d->d_name, ".") && strcmp(d->d_name, ".."))
+	    {
+		    char *file_path = (char *)malloc((strlen(path) + 1) * sizeof(char) + sizeof(char) + (strlen(d->d_name) + 1) * sizeof(char));
+		    sprintf(file_path, "%s/%s", path, d->d_name);
+
+		if (recursive)
+		    list(file_path, recursive, smaller_value, has_perm_execute, 1);
+            
+        if((smaller_value == -1)){
+            if(has_perm_execute == 1){
+                if(access(file_path,X_OK)==0)
+		            printf("%s\n", file_path);
+            }
+            else
+                printf("%s\n", file_path);
+        }
+
+        else if(smaller_value > 0)
+        {
+            FILE *opened = fopen(file_path,"r");
+            int size = fsize(opened);
+
+            if(strstr(file_path,".")){
+            if(has_perm_execute == 1){
+                if(access(file_path,X_OK)==0)
+                    if(size < smaller_value)
+                     printf("%s\n", file_path);
+            }
+                else{
+                    if(size < smaller_value)
+                    printf("%s\n", file_path);
+
+                }
+            }
+
+            fclose(opened);
+           
+        }
+            free(file_path);
+	    }
+	    d = readdir(directory);
+	}
+             
+    }
+    else if (!lvl)
+	printf("ERROR\ninvalid directory path\n");
+    closedir(directory);
+
+}
+
+void parse(const char* path) 
+{
+    char sectionName[20][14];
+    unsigned short noOfSections;
+    int version=0, ok = 0, magic;
+    int sectionTypes[20], sectionOffset[20], sectionSize[20], headerSize;
+    int errorSectionTypes = 0, errorSectionSize = 0, errorSectionOffset = 0, errorVersion = 0, errorMagic = 0, errorNoOfSection = 0;
+
+    for(int i=0;i<20;i++)
+		for(int j=0;j<14;j++)
+			sectionName[i][j]='\0';
+ 
+    int file = open(path, O_RDONLY);
+    lseek(file, -1, SEEK_END);
+    read(file, &magic, 1);
+    lseek(file, -3, SEEK_END);
+    read(file, &headerSize, 2);
+    lseek(file, -headerSize, SEEK_END);
+    read(file, &version, 4);
+    if (version <= 167 && version >= 115)
+        ok++;
+    else 
+        errorVersion = 1;
+
+    read(file, &noOfSections, 1);
+    if(noOfSections <= 20 && noOfSections >=4)
+        ok++;
+    else
+        errorNoOfSection = 1;
+    
+    for(int i = 0 ; (i < noOfSections) && (errorNoOfSection==0) ; i++)
+    {
+        read(file, &sectionName[i], 14);
+        read(file, &sectionTypes[i], 4);
+        read(file, &sectionOffset[i], 4);
+        read(file, &sectionSize[i], 4);
+
+
+        if(sectionTypes[i] == 55 ||  sectionTypes[i] == 31 || sectionTypes[i] == 25 || sectionTypes[i] == 72 )
+            ok++;
+        else 
+            errorSectionTypes = 1;
+    }
+    
+    
+    if(magic == 'B')
+        ok++;
+    else
+        {
+            errorMagic = 1;
+        }
+
+        //printf("%d", errorMagic + errorNoOfSection + errorSectionOffset + errorSectionSize + errorSectionTypes + errorVersion);
+        if(errorMagic + errorNoOfSection + errorSectionOffset + errorSectionSize + errorSectionTypes + errorVersion){
+            if (errorMagic)
+	            printf("ERROR\nwrong magic");
+	        else if (errorVersion)
+	             printf("ERROR\nwrong version");
+	        else if (errorNoOfSection)
+	            printf("ERROR\nwrong sect_nr");
+	        else if (errorSectionTypes)
+	            printf("ERROR\nwrong sect_types");
+            //printf("      %d    ", ok);
+      }
+         else{
+            printf("SUCCESS\nversion=%d\nnr_sections=%d\n",version, noOfSections);
+            for (int i = 0; i < noOfSections; i++){
+                char helper[14];
+                strncpy(helper, sectionName[i], 14);
+	            printf("section%d: %s %d %d\n", i + 1, helper, sectionTypes[i], sectionSize[i]);
+            }
+         }
+    }
+
+void extract(const char* path, int section, int line)
+{
+    int file = open(path, O_RDONLY), offs, size=0, lineCount=1, version, sc=0;
+    if(file==-1) {
+        printf("ERROR\ninvalid file");
+        return;}
+    int headerSize = 0;
+    lseek(file, -3, SEEK_END);
+    read(file, &headerSize, 2);
+    lseek(file, -headerSize, SEEK_END);
+    read(file, &version, 4);
+    read(file, &sc, 1);
+    
+    if(sc<section) {
+        printf("ERROR\ninvalid section");
+        return;
+        }
+
+    lseek(file,(section-1)*(14+4+4+4)+(14+4),SEEK_CUR);
+	read(file,&offs,4);
+	read(file,&size,4);
+    lseek(file,offs,SEEK_SET);
+
+	char el;
+    char *good = (char*)malloc(size );
+    int goodi=0;
+	for(int i=0;i<size;i++)
+	{
+		read(file,&el,1);
+		if(el=='\n') lineCount++;
+
+        if(lineCount == line && el!='\n')
+            good[goodi++]=el;
+
+	}
+
+    
+    if(line>lineCount) {
+        printf("ERROR\ninvalid line");
+        return;
+        }
+    printf("SUCCESS\n");
+    for(int i = goodi - 1 ; i >=0 ; i--)
+        printf("%c",good[i]);
+    //printf("%s", good);
+    free(good);
+
+  
+}
+
+
+int main(int argc, char **argv){
+    if(argc >= 2){
+        char *path = NULL, *size_smaller = NULL, *section = NULL, *line = NULL;
+    	int recursive = 0, size_smaller_value = -1, has_perm_execute = 0, op = 0;
+
+        if(strcmp(argv[1], "variant") == 0){
+            printf("98835\n");
+        }
+
+        for(int i = 1 ; i < argc ; i++)
+        {
+
+            if(strstr(argv[i], "path="))
+            {
+                path = (char*)malloc((strlen(argv[i]) - 4) * sizeof(char));
+                strcpy(path,argv[i] + 5);
+                //printf("%s", path);
+            }
+
+             if(strstr(argv[i], "size_smaller="))
+            {
+                size_smaller = (char*)malloc((strlen(argv[i]) - 12) * sizeof(char));
+                strcpy(size_smaller,argv[i] + 13);
+                size_smaller_value = atoi(size_smaller);
+                //printf("%d", size_smaller_value);
+            }
+            if (strstr(argv[i], "has_perm_execute"))
+		        has_perm_execute = 1;
+
+            if(strstr(argv[i],"line="))
+			{
+				line = (char*)malloc( (strlen(argv[i])-4) * sizeof(char));
+				strcpy(line,argv[i]+5);
+			}
+
+            if(strstr(argv[i],"section="))
+			{
+				section = (char*)malloc( (strlen(argv[i])-7) * sizeof(char));
+				strcpy(section,argv[i]+8);
+			}
+
+            
+
+        
+
+        if (strstr(argv[i], "recursive"))
+		        recursive = 1;
+
+        if (strstr(argv[i], "list"))
+		        op = 1;
+        
+        if (strstr(argv[i], "parse"))
+		        op = 2;
+        if(strstr(argv[i],"extract"))
+                op=3;
+        }
+
+        if (op == 1)
+	        list(path, recursive, size_smaller_value, has_perm_execute, 0);
+        if(op == 2)
+            parse(path);
+        if( op == 3 ) {
+            extract(path,atoi(section),atoi(line));
+        }
+
+
+	    free(path);
+	    free(line);
+	    free(section);
+	    free(size_smaller);
+    }
+    return 0;
+}

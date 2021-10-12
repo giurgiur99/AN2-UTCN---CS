@@ -1,0 +1,5 @@
+﻿  Bezier.cpp
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Bezier\EGC_Bezier\EGC_Bezier\Bezier.cpp(17,39): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Bezier\EGC_Bezier\EGC_Bezier\Bezier.cpp(20,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Bezier\EGC_Bezier\EGC_Bezier\Bezier.cpp(20,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  EGC_Bezier.vcxproj -> C:\Users\TheRa\Desktop\Utcn\AN2\Sem2\ECG\EGC_Bezier\EGC_Bezier\Debug\EGC_Bezier.exe

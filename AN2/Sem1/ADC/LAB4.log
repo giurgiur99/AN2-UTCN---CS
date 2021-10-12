@@ -1,0 +1,84 @@
+
+                 *********************************************
+                 *                                           *
+                 *             A I M - S p i c e             *
+                 *                                           *
+                 *         Professional Version 2020.100           *
+                 *                                           *
+                 *********************************************
+
+	Date: Thu Nov  5 15:26:13 2020
+	Circuit File: C:\Users\TheRa\Desktop\Utcn\AN2\ADC\LAB4.cir
+	Analysis: Transient
+
+**************************  Circuit Description  **************************
+
+     1:  TTL Logic circuits
+     2:  .Model Trans NPN TR=5e-9 TF=8e-9
+     3:  Q1A 2 1 A Trans
+     4:  Q1B 2 1 B Trans
+     5:  R1 VCC 1 4k
+     6:  .MODEL Diodes D tt=1e-9
+     7:  D1 0 A Diodes
+     8:  D2 0 B Diodes
+     9:  
+    10:  R2 VCC 3 1.6k
+    11:  Q2 3 2 4 Trans
+    12:  R3 4 0 1k
+    13:  
+    14:  R4 VCC 5 130
+    15:  Q3 5 3 6 Trans
+    16:  D3 6 OUT Diodes
+    17:  Q4 OUT 4 0 Trans
+    18:  
+    19:  C1 OUT 0 1p
+    20:  
+    21:  VCC VCC 0 DC 5 
+    22:  VA A 0 DC 5 PULSE ( 0 5 0 1e-9 1e-9 1e-6 2e-6)
+    23:  VB B 0 DC 5
+    24:  
+    25:  
+    26:  
+    27:  
+    28:  .tran 1e-9 6e-6
+
+***************************  Model Parameters  ****************************
+
+
+***************  Device Parameters (Only for .op analysis)  ***************
+
+
+
+**************************  Analysis Parameters  **************************
+
+	Stepsize ............ : 1e-9
+	Final time .......... : 6e-6
+	Use Initial Conditions: Off
+
+
+
+**************  Options (Only those different from default)  **************
+
+
+
+*************************  Simulation Statistics  *************************
+
+	Total number of iterations.....................: 1860
+	Number of iterations for transient analysis....: 1846
+	Total number of timepoints.....................: 417
+	Number of timepoints accepted..................: 329
+	Number of timepoints rejected..................: 88
+	Total analysis time (sec)......................: 0.069
+	Transient analysis time (sec)..................: 0.068
+	Time spent in device loading (sec).............: 0.01
+	Time spent in L-U decomposition (sec)..........: 0
+	Time spent in matrix reordering (sec)..........: 0
+	Time spent in matrix solving (sec).............: 0
+	Time spent in transient L-U decomposition (sec): 0
+	Time spent in transient matrix solving (sec)...: 0
+
+***************************  Kernel Messages  *****************************
+
+Circuit: TTL Logic circuits
+
+

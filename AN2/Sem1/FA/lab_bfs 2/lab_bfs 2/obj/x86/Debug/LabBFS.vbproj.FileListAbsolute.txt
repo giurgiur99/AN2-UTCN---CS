@@ -1,0 +1,2 @@
+C:\Users\TheRa\Desktop\Utcn\AN2\FA\lab_bfs 2\lab_bfs 2\obj\x86\Debug\LabBFS.vbprojAssemblyReference.cache
+C:\Users\TheRa\Desktop\Utcn\AN2\FA\lab_bfs 2\lab_bfs 2\obj\x86\Debug\LabBFS.vbproj.CoreCompileInputs.cache
